@@ -1,0 +1,49 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.coverprofile
+
+# Directories for tools and dependencies
+bin/
+pkg/
+vendor/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code specific files
+.vscode/
+
+# macOS specific files
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Go workspace file
+go.work
+go.work.sum
